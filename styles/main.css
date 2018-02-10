@@ -1,0 +1,91 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  display: inline;
+  padding-left: 15px;
+}
+
+#viewport {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+
+/* Navbar Styles */
+header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  margin-top: 20px;
+}
+
+li a {
+  padding-left: 15px;
+}
+
+#last-icon {
+  padding-right: 15px;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+
+.navbar ul li {
+  padding: 5px;
+}
+
+/* Main Content Styles */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  flex: 1;
+}
+
+input {
+  width: 50%;
+  height: 30px;
+  border-radius: 5%;
+  margin-bottom: 15px;
+}
+
+button {
+  border-radius: 5%;
+  padding: 8px;
+}
+
+/* Footer Styles */
+
+footer {
+  width: 100%;
+  line-height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #f9f9f9;
+  font-family: Arial, sans-serif;
+  color: #666;
+  font-size: 12px;
+}
